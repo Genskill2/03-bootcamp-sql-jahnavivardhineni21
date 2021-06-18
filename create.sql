@@ -1,18 +1,18 @@
 CREATE TABLE publisher(
-id SERIAL PRIMARY KEY ,
+id INTEGER PRIMARY KEY ,
 name TEXT NOT NULL,
 country TEXT NOT NULL
 );
 
 CREATE TABLE books(
-id SERIAL PRIMARY KEY ,
+id INTEGER PRIMARY KEY ,
 title text NOT NULL,
 publisher INTEGER NOT NULL,
 FOREIGN KEY(publisher) REFERENCES publisher(id)
 );
 
 CREATE TABLE subjects(
-id SERIAL PRIMARY KEY ,
+id INTEGER PRIMARY KEY ,
 name text NOT NULL
 );
 
