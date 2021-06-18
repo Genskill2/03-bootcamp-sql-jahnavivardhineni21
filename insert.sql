@@ -11,7 +11,7 @@ INSERT INTO books VALUES(3,"The UNIX Programming Environment",1);
 INSERT INTO books VALUES(4,"Cryptonomicon",2);
 INSERT INTO books VALUES(5,"Deep Work",3);
 INSERT INTO books VALUES(6,"Atomic Habits",4);
-INSERT INTO books VALUES(7,"he City and The City",5);
+INSERT INTO books VALUES(7,"The City and The City",5);
 INSERT INTO books VALUES(8,"The Great War for Civilisation",6);
 
 INSERT INTO subjects VALUES(1,"C");
